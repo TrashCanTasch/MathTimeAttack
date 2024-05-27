@@ -41,6 +41,7 @@ public class MathGame : MonoBehaviour
 
         maxtime = 15f;
         timer = 15f;
+        Time.timeScale = 1f;
         score = 0;
         bg = GameObject.Find("Panel").GetComponent<Image>();
         timerBar = GameObject.Find("Timer").GetComponent<Image>();
